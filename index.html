@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <title>WeatherRealm</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+  <section>
+    <div id="intro-box" style="font-size: 6vh; display: flex;">
+        <span>WEATHER MASTER </span>
+        <div id="start">CLICK HERE</div>
+    </div>
+
+    <div id="main-box" style="display: flex;">
+      Check the weather in your city 
+      <input type="text" placeholder="Enter here" id="input-text">
+      <div id="submit">SEARCH</div>
+    </div>
+
+    <div id="weather">
+
+      <div id="search">
+        <input type="text" id="input-new" placeholder="Try for another place">
+        <div id="submit-new"><img src="./assets/search.png"></div>
+      </div>
+
+      <div id="data">
+        <div id="city-country">del, ind</div>
+        <small>city, country</small>
+
+        <div id="date"></div>
+        <small>date</small>
+
+        <div id="temp">23</div>
+        
+        <div id="icon"><img id="showicon" src="" alt=""></div>
+
+        
+        <div id="humid">we</div>
+        <small>humidity</small>
+
+        <div id="description">smoke</div>
+        <small>description </small>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
